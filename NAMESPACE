@@ -1,0 +1,15 @@
+import("SummarizedExperiment")
+importFrom("S4Vectors", "DataFrame") # new
+import("digest")
+export('getLibsizes3',  'make_RPKM', 'plotMA.se', 'dafsFilter',
+'quantFilter', 'test_diffs', 'plotRatioBoxes', 'plotRatioDensity',
+'se.DM', 'glSeq', 'generateStats', 'iqrxFilter', 'plotExpr',
+'simpleFilter','SummarizedExperiment', 'colData')
+importFrom("graphics", "boxplot", "lines", "matplot", "plot")
+importFrom("methods", "callNextMethod", "new")
+importFrom("stats", "density", "kruskal.test", "ks.test", "median",
+"na.omit", "quantile")
+importFrom("graphics", "abline", "legend")
+importFrom("stats", "formula", "poisson")
+importFrom("graphics", "axTicks", "axis")
+import("RUnit")
